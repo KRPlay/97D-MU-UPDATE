@@ -1,5 +1,5 @@
 ; UpdateList.txt gerado pelo GetLauncher: caminho TAB CRC32 TAB tamanho TAB SHA-256 [TAB partes]. Lista assinada (última linha).
-;seq	20261003113459
+;seq	20261003113632
 ;versao	0.97.12 (KOR) 20261003
 ;chave-assets	0ce4c8ed
 Bibliotecas\CEF\MuWeb.exe	53F096A1	466432	be1d4d3b3065f99c0e879cf2839883603eba5c3166b14c7f6e352c0ca806cb4a
@@ -3605,30 +3605,6 @@ Data\Moderno\HD\Player\FShoots_R_j_r.dds	FB5848CE	7041	c52bf977bdd587b816806a93a
 Data\Moderno\HD\Player\FShoots_t_a.dds	ABAA8065	41565	6dc24db712b382c05ab8edc862579e621e97d3fed69fd7199243bf478b463400
 Data\Moderno\HD\Player\FShoots_t_n.dds	70C73169	11156	c4a84ce24fbaacde41f7013c08e14fb33b5ee56ff18cd9f7eb7c3e8cff14ee9d
 Data\Moderno\HD\Player\FShoots_t_r.dds	F1E84331	6953	041d4d2d017c76394da1717dbb36d3e82fd7857a603aa6bfe2f29f9004f2e985
-Data\Moderno\HD\Player\HQSkinClass101_j_a.dds	64D2CAB9	349748	93480ab571c17eb666e747205d88960fee6460eac58763c207cec28913e3c220
-Data\Moderno\HD\Player\HQSkinClass101_j_n.dds	FFE0D43E	87604	f0e410571c79c036d065193996c97bea9faac78c04a6342425973d27e4aeb56e
-Data\Moderno\HD\Player\HQSkinClass101_j_r.dds	0850B903	62968	a190e36afda394bbf8df9f9e1c766a54667720fc8bc0803688a04b8841374a6a
-Data\Moderno\HD\Player\HQSkinClass102_j_a.dds	521FF587	349748	f3aa31808a1b93c115e778560df41745ef5b626659742c36cc9b2497f38aab9a
-Data\Moderno\HD\Player\HQSkinClass102_j_n.dds	ED72DF3F	87604	1412c9cf1389237f18545e267113fdbf0f1d23c27bc17d6eb3faa836e5a2732f
-Data\Moderno\HD\Player\HQSkinClass102_j_r.dds	8D873B64	70503	2bafde66e76978c0acbf65e7db9fb3b2d5d7c7a0be685326552a66b99cdc1a66
-Data\Moderno\HD\Player\HQSkinClass103_j_a.dds	2E40F2D5	349748	20abee7d76e52099710d64f33e3e330bd0809c94875495fb39f21365e6fa1e20
-Data\Moderno\HD\Player\HQSkinClass103_j_n.dds	5AA6BBE9	87604	b0b0ef67b1166a7d053942d15c0613b76c5712f01b8602c620ee49e75942ec88
-Data\Moderno\HD\Player\HQSkinClass103_j_r.dds	909D98D6	74192	df2bdc14f49974661d20395aeb669a42b817771d9fe9b03978c71008e092e99e
-Data\Moderno\HD\Player\HQSkinClass202_j_a.dds	687C5A6A	349748	48fbdc5191bbf39f748885d4ecea3b941d1f700025ef980fcec2c303d81cfc98
-Data\Moderno\HD\Player\HQSkinClass202_j_n.dds	FA617DE9	87604	7c8eb64d48a33a8587debd3c2f0495f4793d90e0760cdb7c577669075760d678
-Data\Moderno\HD\Player\HQSkinClass202_j_r.dds	CCD00647	71067	8b447190075e9b354ecee5e431b4749e814b3d28748b861b88f55085fd1fb62a
-Data\Moderno\HD\Player\HQSkin_special_01_j_a.dds	959EF04C	349748	f1a0fb590198c012a2eb48df4c67b406881af7c1c0238314e6fa6cb484f8abfc
-Data\Moderno\HD\Player\HQSkin_special_01_j_n.dds	9A6A31A5	87604	d0993c5069d987222f62a6c985d6286118e36b3120ef60f2dd31ac6117f237a4
-Data\Moderno\HD\Player\HQSkin_special_01_j_r.dds	2C02A263	59175	10fb2146d7d3b926e4bfc4fd2cd1fc34376e13adc8e8b42723551c8e0c38a52c
-Data\Moderno\HD\Player\HQlevel_man022_2_t_a.dds	2A55F2D1	43924	bab4c386e18cdf04ff8196e6a1ae8b65bed18d7a9d3b5dfca9766cf529d1df9b
-Data\Moderno\HD\Player\HQlevel_man022_2_t_n.dds	563F8E17	11156	2c2e1d028afbd1d4d41a19be4db6289f88463d90e43dccd6dce354644e0de98f
-Data\Moderno\HD\Player\HQlevel_man022_2_t_r.dds	2E02BE8B	7440	04aadfb9484060cbed7aa3bd24971dea8cd722e2a202a5b8d645b0d7ef903a85
-Data\Moderno\HD\Player\HQlevel_man022_j_a.dds	D59FA568	349748	5f7f5211a1e3d64bfe9eba252cc73b947741490d87290afd155b6af95d96f0cc
-Data\Moderno\HD\Player\HQlevel_man022_j_n.dds	EAABAE0F	87604	1ed7a5cf097e580652158c0764db2c8f241d976a21a7df203026c4bab27f7412
-Data\Moderno\HD\Player\HQlevel_man022_j_r.dds	A4FD719F	64610	86efb8eb1d77bbd92d962ad40d85eb01091502ac0aec9755a01a64db85b24f19
-Data\Moderno\HD\Player\HQlevel_man033_j_a.dds	C8B17490	349748	3fc6cb6a5acb6799318052758f27830405378df376fbdaeb3c94adefc4131769
-Data\Moderno\HD\Player\HQlevel_man033_j_n.dds	E2761C73	87604	30c63822f680757b36c167ca0a7bea0cabcd01c04c8083ba1ac1ced256c4c120
-Data\Moderno\HD\Player\HQlevel_man033_j_r.dds	F547EC67	77432	7b6e62887801893754c2695932f92a56165e8e6fabbf67a5c91cbd9072bcb461
 Data\Moderno\HD\Player\KSbp_j_a.dds	60CC89B5	159938	d4c41313c3fb1313adf427dda06043242afd79b7936ba589ca17bfc7c529712e
 Data\Moderno\HD\Player\KSbp_j_n.dds	920330DD	43924	564183c2ee475382008a9f86fb5dc12d5189bd68909edd35856ad63a558b372a
 Data\Moderno\HD\Player\KSbp_j_r.dds	6E2E9688	24605	4e8aa0c48d529e4b0424a3e09eaa740fd27a1311673824a673ded2be6c5e0dcc
@@ -7408,6 +7384,30 @@ UpdaterHelper.exe	277BF293	420352	aa02ed8aed36ae589388f0369a16d82ccee973905e43ca
 ;remover	Data\Moderno\HD\Player\GloveMale22_j_a.dds
 ;remover	Data\Moderno\HD\Player\GloveMale22_j_n.dds
 ;remover	Data\Moderno\HD\Player\GloveMale22_j_r.dds
+;remover	Data\Moderno\HD\Player\HQSkinClass101_j_a.dds
+;remover	Data\Moderno\HD\Player\HQSkinClass101_j_n.dds
+;remover	Data\Moderno\HD\Player\HQSkinClass101_j_r.dds
+;remover	Data\Moderno\HD\Player\HQSkinClass102_j_a.dds
+;remover	Data\Moderno\HD\Player\HQSkinClass102_j_n.dds
+;remover	Data\Moderno\HD\Player\HQSkinClass102_j_r.dds
+;remover	Data\Moderno\HD\Player\HQSkinClass103_j_a.dds
+;remover	Data\Moderno\HD\Player\HQSkinClass103_j_n.dds
+;remover	Data\Moderno\HD\Player\HQSkinClass103_j_r.dds
+;remover	Data\Moderno\HD\Player\HQSkinClass202_j_a.dds
+;remover	Data\Moderno\HD\Player\HQSkinClass202_j_n.dds
+;remover	Data\Moderno\HD\Player\HQSkinClass202_j_r.dds
+;remover	Data\Moderno\HD\Player\HQSkin_special_01_j_a.dds
+;remover	Data\Moderno\HD\Player\HQSkin_special_01_j_n.dds
+;remover	Data\Moderno\HD\Player\HQSkin_special_01_j_r.dds
+;remover	Data\Moderno\HD\Player\HQlevel_man022_2_t_a.dds
+;remover	Data\Moderno\HD\Player\HQlevel_man022_2_t_n.dds
+;remover	Data\Moderno\HD\Player\HQlevel_man022_2_t_r.dds
+;remover	Data\Moderno\HD\Player\HQlevel_man022_j_a.dds
+;remover	Data\Moderno\HD\Player\HQlevel_man022_j_n.dds
+;remover	Data\Moderno\HD\Player\HQlevel_man022_j_r.dds
+;remover	Data\Moderno\HD\Player\HQlevel_man033_j_a.dds
+;remover	Data\Moderno\HD\Player\HQlevel_man033_j_n.dds
+;remover	Data\Moderno\HD\Player\HQlevel_man033_j_r.dds
 ;remover	Data\Moderno\HD\Player\HelmElf22_j_a.dds
 ;remover	Data\Moderno\HD\Player\HelmElf22_j_n.dds
 ;remover	Data\Moderno\HD\Player\HelmElf22_j_r.dds
@@ -7437,4 +7437,4 @@ UpdaterHelper.exe	277BF293	420352	aa02ed8aed36ae589388f0369a16d82ccee973905e43ca
 ;remover	Data\Player\PantElf23.bmd
 ;remover	Data\Player\PantMale22.OZJ
 ;remover	LEIA-ME.txt
-;assinatura	0enKgkmOWGziphpB8rADkVUZ8kBx2bZyMBTmPIdxTJ/zUwxEuGzBblyvYS236Pe/nu+a/X8UDFSxCeKZFBGcDuNjbYdX9zLzEBNVwERr2rSXV5ezvxeysKP8ENVXQmOCU4mvP81J+yLHtxXug8+LOVB6/M8liYHT5ch1prwH9EURxGudlAUUdrmvGFORaXAkWGxi5NktiRlOsrmg6w9ONO/X1i5juXiLjPjG9+tidi34e+Ln0B94rjVwALIk2+1YbtV/y1HUh8aw1L8DzegkyM5p5zDPhyXUJGmHr0GLeV3RrtzHgyoiZrQ2vAnFGvJLq8k2DUEw8cl84WNGuuGL+g9I3aMmBBAu8JZ4nebRBin2NStyBhx8IlUdKzhSkpT2YHtgJgqCl6vNgXgcf0UN2PokpggdDO84Xk81BZU1cLJcTEtL3fxqnlzuiNvMP7oCgkRxja7Lf/bz+5E0bihPk3G5XKnoAsozOL4U2wnfZcFzvzpF19NNp2AERhDFfr85
+;assinatura	EIFC2JDVhoq4ADUnziQcQdSwIZkcw2QERxBc/pii3D0oO/MI2Uw9ErLkQLd1tcdaYgY3fgwZV5JY/9RsaUy77NEJvfc1Ga5vj0x7SjxC36QQQgUksnu/DLHWoQKlK4zq9vY1EFjv2vHao5TocGMPOh6nkTWVTt64CyYjYuG5RXg/aUqYbjwZAD3Vd4Q2Nn6NxQmeUbY8ZAB0bXnXnym5LF/Qle2KdtBoDvjLzSQiCTejCG6l9Vfur8veAd29SBXa8dPIN7cY88PZoyqukIahtb9Ajh28NqKwt80Sg2AA/wfEeYnW356h71X67W7su41zdz0J6Enu08tVpa3by0gMEFyas4RbBXB3sz1D72/JA1wCva+CEKk6DUacb7ULMthncJxcw12ZmLG8xkQKyQXaZPswaCd3WEwbbHFLlC23JGg6fozBIzWGR7iExZQNyl6Jo6u59F1O/wvp48tCorDZh4pmdAvO2vv2bDQkAmPdsjcLAJLKFyyBMtEdQoXJoX18
