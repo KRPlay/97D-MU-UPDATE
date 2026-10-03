@@ -17,6 +17,9 @@
 //  5 pet_malha    item malha R G B render         passe extra por malha do pet/montaria (CustomPetGlow;
 //                 render 66 = a malha vira BlendMesh 0.55 subindo)
 //  6 pet_efeito   mesmas colunas da seção 3, nos ossos do pet/montaria (CustomPetDynamic)
+//  7 pano         item malha [malha]              malhas do pano das capas (CustomWing Hide1/Hide2 do MuEmu, que
+//                 troca por pano físico): sem pano físico aqui, a parte com recorte (TGA) fica como capa parada
+//                 e as camadas JPG do pano (cor/brilho sem alpha) não são desenhadas — viravam placa/franja
 // 10 asa          item_de item_até reflexo        asas: sem brilho de nível nem excelente; reflexo 0 = sem os
 //                 passes CHROME*/METAL do kit por cima do corpo (fica a luz da cena, as camadas emissivas e os efeitos)
 //  9 batida       item_de item_até velocidade suave   batida das asas: × velocidade da ação da asa e suavização
@@ -5726,6 +5729,24 @@ end
 end
 9
 12,0	12,511	0.8	1	// todas as asas: 80% da velocidade, passagem suave entre os quadros
+end
+7
+12,51	5	7	// Fobos Cape
+12,53	1	5	// Devil Cape
+12,57	1	4	// Ancestral cape
+12,59	1	3	// Black Crystal cape
+12,61	1	7	// Alchemist cape
+12,63	1	4	// Cyan Oblivion cape
+12,65	1	5	// Evil Rabbit cape
+12,67	1	2	// Fenrir Black cape
+12,70	3	1	// Ghost cape
+12,72	1	// Glory cape  (lencol=mesh 1)
+12,75	1	6	// Heavenly cape
+12,77	1	// Phoenix cape  (lencol=mesh 1)
+12,79	1	// Purple Lightning cape  (lencol=mesh 1)
+12,82	1	3	// Snow Hunter cape
+12,84	1	3	// Solaris cape
+12,88	1	3	// Hellfire cape
 end
 10
 12,50	12,511	0	// asas/capas custom: sem passes de reflexo por cima do corpo
