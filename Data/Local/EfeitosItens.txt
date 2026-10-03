@@ -17,6 +17,11 @@
 //  5 pet_malha    item malha R G B render         passe extra por malha do pet/montaria (CustomPetGlow;
 //                 render 66 = a malha vira BlendMesh 0.55 subindo)
 //  6 pet_efeito   mesmas colunas da seção 3, nos ossos do pet/montaria (CustomPetDynamic)
+//  9 batida       item_de item_até velocidade suave   batida das asas: × velocidade da ação da asa e suavização
+//                 entre os quadros (0 = linear do original, 1 = smoothstep cheio)
+//  8 intensidade  item_de item_até brilho partículas   modo realista (Itens: HD), sets e armas: multiplica as
+//                 camadas de brilho do kit e a luz das partículas (1 = como o MuEmu). Asas não usam. Ajuste por
+//                 kit pondo uma linha mais específica DEPOIS das gerais (a última que casa vale).
 0
 0,50	255	255	255	// Fobos Sword
 2,50	255	255	255	// Fobos Mace
@@ -4813,6 +4818,74 @@ end
 11,89	1	1	Effect/smoke01.jpg	31	26	0.7	0.2	0.05	0.02	-1	-1	-1	0	25	// Hellfire Boot F
 11,89	1	1	Effect/Fire03.jpg	4	4	0.45	0.9	0.25	0.05	-1	-1	-1	0	30	// Hellfire Boot F
 11,89	1	1	Effect/Fire03.jpg	4	11	0.45	0.9	0.25	0.05	-1	-1	-1	0	30	// Hellfire Boot F
+8,76	1	1	Effect/Thunder01.jpg	0	19	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set)
+8,76	1	1	Effect/Thunder01.jpg	0	36	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set)
+8,76	1	1	Effect/Thunder01.jpg	0	18	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set)
+9,76	1	1	Effect/Thunder01.jpg	0	4	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set)
+9,76	1	1	Effect/Thunder01.jpg	0	11	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set)
+10,76	1	1	Effect/Thunder01.jpg	0	27	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set)
+11,76	1	1	Effect/Thunder01.jpg	0	5	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set)
+11,76	1	1	Effect/Thunder01.jpg	0	12	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set)
+8,77	1	1	Effect/Thunder01.jpg	0	19	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set F)
+8,77	1	1	Effect/Thunder01.jpg	0	36	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set F)
+8,77	1	1	Effect/Thunder01.jpg	0	18	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set F)
+9,77	1	1	Effect/Thunder01.jpg	0	4	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set F)
+9,77	1	1	Effect/Thunder01.jpg	0	11	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set F)
+10,77	1	1	Effect/Thunder01.jpg	0	27	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set F)
+11,77	1	1	Effect/Thunder01.jpg	0	5	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set F)
+11,77	1	1	Effect/Thunder01.jpg	0	12	0.7	0.7	0.3	1.0	0	0	0	0	12	// tema Purple Lightning (Purple Lightning Set F)
+11,78	1	1	Effect/shiny05.jpg	1	20	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot)
+11,78	1	1	Effect/shiny05.jpg	1	27	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot)
+11,78	1	1	Effect/shiny05.jpg	1	36	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot)
+11,78	1	1	Effect/shiny05.jpg	1	18	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot)
+11,78	1	1	Effect/shiny05.jpg	1	4	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot)
+11,78	1	1	Effect/shiny05.jpg	1	11	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot)
+11,78	1	1	Effect/shiny05.jpg	1	28	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot)
+11,78	1	1	Effect/shiny05.jpg	1	5	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot)
+11,78	1	1	Effect/shiny05.jpg	1	12	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot)
+11,78	1	1	Effect/shiny05.jpg	1	37	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot)
+11,79	1	1	Effect/shiny05.jpg	1	20	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot F)
+11,79	1	1	Effect/shiny05.jpg	1	27	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot F)
+11,79	1	1	Effect/shiny05.jpg	1	36	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot F)
+11,79	1	1	Effect/shiny05.jpg	1	18	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot F)
+11,79	1	1	Effect/shiny05.jpg	1	4	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot F)
+11,79	1	1	Effect/shiny05.jpg	1	11	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot F)
+11,79	1	1	Effect/shiny05.jpg	1	28	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot F)
+11,79	1	1	Effect/shiny05.jpg	1	5	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot F)
+11,79	1	1	Effect/shiny05.jpg	1	12	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot F)
+11,79	1	1	Effect/shiny05.jpg	1	37	0.6	0.6	0.85	1.0	0	0	0	0	10	// tema Snow Hunter (Snow Hunter Boot F)
+7,74	1	1	Effect/Fire03.jpg	4	19	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+7,74	1	1	Effect/Fire03.jpg	4	20	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+8,74	1	1	Effect/Fire03.jpg	4	26	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+8,74	1	1	Effect/Fire03.jpg	4	27	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+8,74	1	1	Effect/Fire03.jpg	4	35	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+8,74	1	1	Effect/Fire03.jpg	4	36	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+8,74	1	1	Effect/Fire03.jpg	4	17	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+8,74	1	1	Effect/Fire03.jpg	4	18	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+9,74	1	1	Effect/Fire03.jpg	4	3	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+9,74	1	1	Effect/Fire03.jpg	4	4	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+9,74	1	1	Effect/Fire03.jpg	4	10	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+9,74	1	1	Effect/Fire03.jpg	4	11	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+10,74	1	1	Effect/Fire03.jpg	4	28	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+10,74	1	1	Effect/Fire03.jpg	4	37	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+11,74	1	1	Effect/Fire03.jpg	4	5	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+11,74	1	1	Effect/Fire03.jpg	4	12	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set)
+7,75	1	1	Effect/Fire03.jpg	4	19	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
+7,75	1	1	Effect/Fire03.jpg	4	20	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
+8,75	1	1	Effect/Fire03.jpg	4	26	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
+8,75	1	1	Effect/Fire03.jpg	4	27	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
+8,75	1	1	Effect/Fire03.jpg	4	35	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
+8,75	1	1	Effect/Fire03.jpg	4	36	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
+8,75	1	1	Effect/Fire03.jpg	4	17	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
+8,75	1	1	Effect/Fire03.jpg	4	18	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
+9,75	1	1	Effect/Fire03.jpg	4	3	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
+9,75	1	1	Effect/Fire03.jpg	4	4	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
+9,75	1	1	Effect/Fire03.jpg	4	10	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
+9,75	1	1	Effect/Fire03.jpg	4	11	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
+10,75	1	1	Effect/Fire03.jpg	4	28	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
+10,75	1	1	Effect/Fire03.jpg	4	37	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
+11,75	1	1	Effect/Fire03.jpg	4	5	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
+11,75	1	1	Effect/Fire03.jpg	4	12	0.45	1.0	0.45	0.1	0	0	0	0	15	// tema Phoenix (Phoenix Set F)
 end
 4
 0,50	0,50	// Fobos Sword
@@ -5634,4 +5707,21 @@ end
 13,210	0	1	Effect/smoke01.jpg	31	10	1	0.2	0.05	0.02	0	0	0	0	25	// Hellfire Steed
 13,210	0	0	Effect/flare01.jpg	0	18	0.5	0.9	0.2	0.05	0	0	0	0	100	// Hellfire Steed
 13,210	0	0	Effect/flare01.jpg	0	22	0.5	0.9	0.2	0.05	0	0	0	0	100	// Hellfire Steed
+end
+8
+0,50	0,511	1	0.7	// kits custom: partículas suaves
+1,50	1,511	1	0.7	// kits custom: partículas suaves
+2,50	2,511	1	0.7	// kits custom: partículas suaves
+3,50	3,511	1	0.7	// kits custom: partículas suaves
+4,50	4,511	1	0.7	// kits custom: partículas suaves
+5,50	5,511	1	0.7	// kits custom: partículas suaves
+6,50	6,511	1	0.7	// kits custom: partículas suaves
+7,50	7,511	1	0.7	// kits custom: partículas suaves
+8,50	8,511	1	0.7	// kits custom: partículas suaves
+9,50	9,511	1	0.7	// kits custom: partículas suaves
+10,50	10,511	1	0.7	// kits custom: partículas suaves
+11,50	11,511	1	0.7	// kits custom: partículas suaves
+end
+9
+12,0	12,511	0.8	1	// todas as asas: 80% da velocidade, passagem suave entre os quadros
 end
