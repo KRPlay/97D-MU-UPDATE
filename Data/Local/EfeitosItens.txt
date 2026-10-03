@@ -5714,18 +5714,38 @@ end
 13,210	0	0	Effect/flare01.jpg	0	22	0.5	0.9	0.2	0.05	0	0	0	0	100	// Hellfire Steed
 end
 8
-0,50	0,511	1	0.7	// kits custom: partículas suaves
-1,50	1,511	1	0.7	// kits custom: partículas suaves
-2,50	2,511	1	0.7	// kits custom: partículas suaves
-3,50	3,511	1	0.7	// kits custom: partículas suaves
-4,50	4,511	1	0.7	// kits custom: partículas suaves
-5,50	5,511	1	0.7	// kits custom: partículas suaves
-6,50	6,511	1	0.7	// kits custom: partículas suaves
-7,50	7,511	1	0.7	// kits custom: partículas suaves
-8,50	8,511	1	0.7	// kits custom: partículas suaves
-9,50	9,511	1	0.7	// kits custom: partículas suaves
-10,50	10,511	1	0.7	// kits custom: partículas suaves
-11,50	11,511	1	0.7	// kits custom: partículas suaves
+0,50	0,511	0.7	0.7	// kits custom: brilho e partículas suaves (padrão da asa de gelo)
+1,50	1,511	0.7	0.7	// kits custom: brilho e partículas suaves (padrão da asa de gelo)
+2,50	2,511	0.7	0.7	// kits custom: brilho e partículas suaves (padrão da asa de gelo)
+3,50	3,511	0.7	0.7	// kits custom: brilho e partículas suaves (padrão da asa de gelo)
+4,50	4,511	0.7	0.7	// kits custom: brilho e partículas suaves (padrão da asa de gelo)
+5,50	5,511	0.7	0.7	// kits custom: brilho e partículas suaves (padrão da asa de gelo)
+6,50	6,511	0.7	0.7	// kits custom: brilho e partículas suaves (padrão da asa de gelo)
+7,50	7,511	0.7	0.7	// kits custom: brilho e partículas suaves (padrão da asa de gelo)
+8,50	8,511	0.7	0.7	// kits custom: brilho e partículas suaves (padrão da asa de gelo)
+9,50	9,511	0.7	0.7	// kits custom: brilho e partículas suaves (padrão da asa de gelo)
+10,50	10,511	0.7	0.7	// kits custom: brilho e partículas suaves (padrão da asa de gelo)
+11,50	11,511	0.7	0.7	// kits custom: brilho e partículas suaves (padrão da asa de gelo)
+0,70	0,70	1	0.7	// Purple Lightning (aprovado)
+0,71	0,71	1	0.7	// Purple Lightning (aprovado)
+0,72	0,72	1	0.7	// Purple Lightning (aprovado)
+0,73	0,73	1	0.7	// Purple Lightning (aprovado)
+10,76	10,76	1	0.7	// Purple Lightning (aprovado)
+10,77	10,77	1	0.7	// Purple Lightning (aprovado)
+11,76	11,76	1	0.7	// Purple Lightning (aprovado)
+11,77	11,77	1	0.7	// Purple Lightning (aprovado)
+2,65	2,65	1	0.7	// Purple Lightning (aprovado)
+2,66	2,66	1	0.7	// Purple Lightning (aprovado)
+3,60	3,60	1	0.7	// Purple Lightning (aprovado)
+4,64	4,64	1	0.7	// Purple Lightning (aprovado)
+5,64	5,64	1	0.7	// Purple Lightning (aprovado)
+6,64	6,64	1	0.7	// Purple Lightning (aprovado)
+7,76	7,76	1	0.7	// Purple Lightning (aprovado)
+7,77	7,77	1	0.7	// Purple Lightning (aprovado)
+8,76	8,76	1	0.7	// Purple Lightning (aprovado)
+8,77	8,77	1	0.7	// Purple Lightning (aprovado)
+9,76	9,76	1	0.7	// Purple Lightning (aprovado)
+9,77	9,77	1	0.7	// Purple Lightning (aprovado)
 end
 9
 12,0	12,511	0.8	1	// todas as asas: 80% da velocidade, passagem suave entre os quadros
