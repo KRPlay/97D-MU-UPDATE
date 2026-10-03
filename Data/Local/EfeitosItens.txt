@@ -17,6 +17,8 @@
 //  5 pet_malha    item malha R G B render         passe extra por malha do pet/montaria (CustomPetGlow;
 //                 render 66 = a malha vira BlendMesh 0.55 subindo)
 //  6 pet_efeito   mesmas colunas da seção 3, nos ossos do pet/montaria (CustomPetDynamic)
+// 10 asa          item_de item_até reflexo        asas: sem brilho de nível nem excelente; reflexo 0 = sem os
+//                 passes CHROME*/METAL do kit por cima do corpo (fica a luz da cena, as camadas emissivas e os efeitos)
 //  9 batida       item_de item_até velocidade suave   batida das asas: × velocidade da ação da asa e suavização
 //                 entre os quadros (0 = linear do original, 1 = smoothstep cheio)
 //  8 intensidade  item_de item_até brilho partículas   modo realista (Itens: HD), sets e armas: multiplica as
@@ -5724,4 +5726,7 @@ end
 end
 9
 12,0	12,511	0.8	1	// todas as asas: 80% da velocidade, passagem suave entre os quadros
+end
+10
+12,50	12,511	0	// asas/capas custom: sem passes de reflexo por cima do corpo
 end
